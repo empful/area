@@ -1,0 +1,26 @@
+---
+title: "Demo"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Demo}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Installation:
+Use the code below to install. \
+
+*Code:* \
+library(devtools) \
+install_github("empful/area")
+
+# How to use:
+
+Import library "area". \
+You can now use the function area_circle \
+```{r setup}
+#Import library "area"
+library(area)
+#Call function area_circle with radius as input. Note default radius = 1.
+area_circle(2)
+```

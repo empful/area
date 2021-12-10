@@ -1,0 +1,17 @@
+Package: area
+Type: Package
+Title: Package containing function area_circle
+Version: 0.1.0
+Author: Fu Yunxiang
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: The package contains a function called "area_circle".
+    The function are_circle takes radius as input and returns the area of the circle.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Depends: R (>= 3.1.0)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
